@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  optionsfortop = {
+    slidesPerView: 2.8,
+    slidesOffsetBefore: 5,
+    spaceBetween: 15,
+    freeMode: true,
+  };
+  getOTP() {}
+  verifyOTP() {}
   constructor() {}
-
 }
